@@ -21,6 +21,7 @@ brew install tfsec
 brew install pre-commit
 brew install helm
 
+brew install --cask authy
 brew install --cask spotify
 brew install --cask discord
 brew install --cask mongodb-compass
