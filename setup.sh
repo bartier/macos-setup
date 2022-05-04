@@ -11,6 +11,7 @@ git config --global user.name "Vitor Anjos"
 git config --global user.email "vitor.menezes@hash.com.br"
 
 brew install jq
+brew install awscli
 brew install htop
 brew install tree
 brew install wget
@@ -20,6 +21,7 @@ brew install warrensbox/tap/tfswitch
 brew install tfsec
 brew install pre-commit
 brew install helm
+brew install ipcalc
 
 brew install --cask authy
 brew install --cask spotify
