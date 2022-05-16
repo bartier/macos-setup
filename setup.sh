@@ -34,6 +34,7 @@ brew install --cask rectangle
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask google-chrome
+brew install --cask linearmouse --no-quarantine
 
 # https://macos-defaults.com/#%F0%9F%99%8B-what-s-a-defaults-command
 
