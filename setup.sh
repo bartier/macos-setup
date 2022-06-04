@@ -22,6 +22,7 @@ brew install tfsec
 brew install pre-commit
 brew install helm
 brew install ipcalc
+brew install derailed/k9s/k9s
 
 brew install --cask authy
 brew install --cask spotify
