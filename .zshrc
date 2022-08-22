@@ -104,3 +104,6 @@ source $ZSH/oh-my-zsh.sh
 
 # kubernetes ps1
 [ -f ~/.kube-ps1.sh ] && source ~/.kube-ps1.sh
+
+# tfswitch config
+export PATH=$PATH:/Users/$USER/bin
