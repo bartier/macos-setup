@@ -13,35 +13,17 @@ git config --global user.email "bartier@users.noreply.github.com"
 brew bundle -f
 brew bundle --force cleanup
 
-# brew install jq
-# brew install awscli
-# brew install htop
-# brew install tree
-# brew install wget
-# brew install kubectx
-# brew install kube-ps1
-# brew install warrensbox/tap/tfswitch
-# brew install tfsec
-# brew install pre-commit
-# brew install helm
-# brew install ipcalc
-# brew install derailed/k9s/k9s
+# Dock settings file
+cp com.apple.dock.plist ~/Library/Preferences/com.apple.dock.plist
 
-# brew install --cask authy
-# brew install --cask spotify
-# brew install --cask discord
-# brew install --cask mongodb-compass
-# brew install --cask slack
-# brew install --cask docker
-# brew install --cask google-cloud-sdk
-# brew install --cask rectangle
-# brew install --cask iterm2
-# brew install --cask jetbrains-toolbox
-# brew install --cask google-chrome
+# Add kubectl_aliases to home folder
+wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases -O ~/.kubectl_aliases
 
-# Dock settings
-#TODO
+# vim config file
+cp .vimrc ~/.vimrc
 
+# zsh config file
+cp .zshrc ~/.zshrc
 
-#cd ~
-#wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases
+# iTerm2
+# Import file manually

@@ -99,8 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# kubectl aliases
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 
 source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
 PS1='$(kube_ps1)'$PS1
-
-[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases

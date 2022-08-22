@@ -1,1 +1,5 @@
 # macos-setup
+
+```
+./setup.sh
+```
