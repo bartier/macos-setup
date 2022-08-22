@@ -17,8 +17,7 @@ git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/pl
 
 # Kubernetes PS1
 git clone https://github.com/jonmosco/kube-ps1.git
-cd kube-ps1
-cp kube-ps1.sh ~/kube-ps1.sh
+cp kube-ps1/kube-ps1.sh ~/kube-ps1.sh
 
 brew bundle -f
 brew bundle --force cleanup
