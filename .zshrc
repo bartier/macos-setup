@@ -102,5 +102,5 @@ source $ZSH/oh-my-zsh.sh
 # kubectl aliases
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 
-source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
-PS1='$(kube_ps1)'$PS1
+# kubernetes ps1
+[ -f ~/.kube-ps1.sh ] && source ~/.kube-ps1.sh

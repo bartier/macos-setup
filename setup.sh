@@ -12,6 +12,14 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git config --global user.name "Vitor Anjos"
 git config --global user.email "bartier@users.noreply.github.com"
 
+# ZSH plugin command-time
+git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/plugins/command-time
+
+# Kubernetes PS1
+git clone https://github.com/jonmosco/kube-ps1.git
+cd kube-ps1
+cp kube-ps1.sh ~/kube-ps1.sh
+
 brew bundle -f
 brew bundle --force cleanup
 
