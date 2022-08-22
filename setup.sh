@@ -8,7 +8,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # Git setup
 git config --global user.name "Vitor Anjos"
-git config --global user.email "vitor.menezes@hash.com.br"
+git config --global user.email "bartier@users.noreply.github.com"
 
 brew install jq
 brew install awscli
@@ -35,24 +35,10 @@ brew install --cask rectangle
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask google-chrome
-brew install --cask linearmouse --no-quarantine
-
-# https://macos-defaults.com/#%F0%9F%99%8B-what-s-a-defaults-command
 
 # Dock settings
+#TODO
 
-# Show recent apps (false)
-defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 
-# Set icon size to 66
-defaults write com.apple.dock "tilesize" -int "66" && killall Dock
-
-# Autohide dock
-defaults write com.apple.dock "autohide" -bool "true" && killall Dock
-defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
-
-# Instant dock animation
-defaults write com.apple.dock autohide-time-modifier -float 0.15;killall Dock
-
-cd ~
-wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases
+#cd ~
+#wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases
