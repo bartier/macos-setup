@@ -1,3 +1,6 @@
+# Rosetta 2 (M1 support for x86)
+sudo softwareupdate --install-rosetta
+
 # Install Home-brew
 if test ! $(which brew); then
   echo "Installing brew"
