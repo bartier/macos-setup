@@ -50,7 +50,6 @@ cp .vimrc ~/.vimrc
 echo "Setting up .zshrc"
 cp .zshrc ~/.zshrc
 
-
 # iTerm2
 # Import file manually
 echo "Import iTerm2 manually to finish the setup"

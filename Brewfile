@@ -23,6 +23,7 @@ brew "tmate"
 brew "vault"
 brew "watch"
 brew "yq"
+brew "ipcalc"
 
 cask "discord"
 cask "docker"
