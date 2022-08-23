@@ -49,6 +49,4 @@ echo "Install zsh manually to finish the setup"
 #sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # ZSH plugin command-time
-echo "Setting up zsh plugin for command-time"
-git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/plugins/command-time
-
+#git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/plugins/command-time
