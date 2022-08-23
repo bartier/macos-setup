@@ -9,20 +9,10 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Install Oh My ZSH
-if test ! $(which zsh); then
-  echo "Installing zsh"
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-fi
-
 # Git setup
 echo "Setting up git"
 git config --global user.name "Vitor Anjos"
 git config --global user.email "bartier@users.noreply.github.com"
-
-# ZSH plugin command-time
-echo "Setting up zsh plugin for command-time"
-git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/plugins/command-time
 
 # Kubernetes PS1
 echo "Setting up Kubernetes PS1"
@@ -50,6 +40,15 @@ cp .vimrc ~/.vimrc
 echo "Setting up .zshrc"
 cp .zshrc ~/.zshrc
 
+# ZSH plugin command-time
+echo "Setting up zsh plugin for command-time"
+git clone https://github.com/popstas/zsh-command-time.git ~/.oh-my-zsh/custom/plugins/command-time
+
 # iTerm2
 # Import file manually
-echo "Import iTerm2 manually to finish the setup"
+echo "Install iTerm2 manually to finish the setup"
+
+# zsh install
+echo "Install zsh manually to finish the setup"
+#sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
