@@ -7,8 +7,10 @@ if test ! $(which brew); then
 fi
 
 # Install Oh My ZSH
-echo "Installing zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+if test ! $(which zsh); then
+  echo "Installing zsh"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+fi
 
 # Git setup
 echo "Setting up git"
