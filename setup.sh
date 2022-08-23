@@ -28,11 +28,12 @@ cp kube-ps1/kube-ps1.sh ~/kube-ps1.sh
 
 echo "Setting up brew packages"
 brew bundle -f
-brew bundle --force cleanup
+brew bundle cleanup
 
 # Dock settings file
 echo "Setting up Dock"
 cp com.apple.dock.plist ~/Library/Preferences/com.apple.dock.plist
+killall Dock
 
 # Add kubectl_aliases to home folder
 echo "Setting up kubectl aliases"
@@ -45,6 +46,7 @@ cp .vimrc ~/.vimrc
 # zsh config file
 echo "Setting up .zshrc"
 cp .zshrc ~/.zshrc
+
 
 # iTerm2
 # Import file manually

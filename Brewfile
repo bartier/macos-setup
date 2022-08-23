@@ -1,3 +1,4 @@
+tap "homebrew/cask"
 tap "warrensbox/tap"
 
 brew "gnu-sed"
