@@ -1,12 +1,14 @@
 # Install Home-brew
 if test ! $(which brew); then
+  echo "Installing brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Install Oh My ZSH
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "Installing zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Git setup
 git config --global user.name "Vitor Anjos"
