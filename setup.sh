@@ -36,6 +36,10 @@ wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_al
 echo "Setting up .vimrc"
 cp .vimrc ~/.vimrc
 
+# git config
+echo "Setting up git"
+cp .gitconfig ~/.gitconfig
+
 # zsh config file
 echo "Setting up .zshrc"
 cp .zshrc ~/.zshrc

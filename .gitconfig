@@ -1,0 +1,13 @@
+[user]
+	name = Vitor Anjos
+	email = bartier@users.noreply.github.com
+[commit]
+	gpgsign = true
+# Enforce SSH
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "ssh://git@bitbucket.org/"]
+	insteadOf = https://bitbucket.org/
+
+[pull]
+	ff = only
