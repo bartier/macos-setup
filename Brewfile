@@ -29,6 +29,7 @@ brew "npm"
 brew "yarn"
 brew "wireshark"
 brew "zsh"
+brew "pyenv"
 
 cask "alfred"
 cask "visual-studio-code"
