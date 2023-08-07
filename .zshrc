@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-time)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,11 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# kubectl aliases
-[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 
-# kubernetes ps1
-[ -f ~/.kube-ps1.sh ] && source ~/.kube-ps1.sh
-
-# tfswitch config
-export PATH=$PATH:/Users/$USER/bin
+export PATH=$PATH:/Users/$USER/.pyenv/shims
